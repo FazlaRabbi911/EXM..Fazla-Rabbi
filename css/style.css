@@ -1,0 +1,377 @@
+.for_namta{
+    /* height: 200px ; */
+    background-color: rgb(193, 235, 240);
+    width: 140px;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 30px;
+    animation: for_namta_anime 1s infinite;
+}
+
+.for_namta::after {
+    position: absolute;
+    content: '';
+    height: 13px;
+    width: 100%;
+    background-color: white;
+    bottom: 22px;
+    left: 0;
+}
+
+.li_main{
+    height: 20%;
+}
+.ul_main{
+    height: 100%;
+    list-style: none;
+    width: 100%;
+}
+.ul_main li{
+    line-height: 18px;
+    width: 100%;
+}
+
+.Guess {
+    position: absolute;
+    content: '';
+    bottom: 17px;
+    padding-right: 5px;
+    padding-left: 5px;
+    right: -113%;
+    background-color: rgb(255, 238, 0);
+    border-radius: 7px;
+
+    display: inline;
+    font-size: 30px;
+}
+
+.Guess_value{
+    display: inline;
+    font-size: 30px;
+}
+.lala{
+    display: inline;
+    font-size: 30px;
+}
+.Guess span {
+
+    position: absolute;
+
+    right: -38px;
+    animation: forQua 1s infinite alternate;
+}
+@keyframes forQua{
+    0%{
+        font-size: 90px;
+        top: -26px;
+        rotate: 20deg;
+    }50%{
+        font-size: 80px;
+        top: -16px;
+        rotate: -20deg;
+    }100%{
+        font-size: 30px;
+        top: -11px;
+        rotate: 0deg;
+    }
+}
+
+
+.for_error{
+    background-color: rgb(39, 39, 39);
+    margin-top: 30px;
+    position: absolute;
+}
+.for_error h2{
+    font-size: 50px;
+    color: rgb(205, 163, 163);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    position: relative;
+    display: inline;
+}
+.for_error h2::after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    right: -20px;
+    height: 90%;
+    width: 2px;
+    background-color:  rgb(249, 203, 203);
+    animation: dag 2s infinite alternate;
+    border-radius: 10px;
+}
+@keyframes dag{
+    0%{
+        height: 0%;
+    }100%{
+        height: 100%;
+    }
+}
+
+.for_error span{
+    color: white;
+    padding-left: 100px;
+    color: red;
+    animation: ang 2s infinite alternate;
+    transform: rotate(30deg);
+}
+@keyframes ang {
+    0%{
+        font-size: 80px;
+        rotate: 40deg;
+        letter-spacing: 5px;
+    }
+    100%{
+        font-size: 40px;
+        rotate: -40deg;
+        letter-spacing: 0px;
+    }
+}
+
+.for_error .happy{
+    color: green;
+}
+
+.store_error{
+    color: rgb(39, 43, 43) !important;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.two{
+    margin-left: 170px;
+}
+.two button{
+    font-size: 10px;
+}
+.player_two{
+    font-size: 25px;
+
+}
+.player_two_box{
+    width: 140px;
+    animation: www 2s alternate;
+
+}
+@keyframes www{
+    0%{
+        width: 10px;
+    }40%{
+        width: 100px;
+    }60%{
+        width: 150px;
+    }100%{
+        width: 140px;
+    }
+}
+.player_two_btn{
+    animation: eee 2s;
+    border-radius: 2px;
+    border: none;
+    background-color: rgb(29, 198, 255);
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+}
+@keyframes eee{
+    0%{
+        width: 0;
+    }100%{
+        width: 50px;
+    }
+}
+.error_text_three{
+    background-color: white;
+}
+.error_text{
+    background-color: black;
+}
+.life_line {
+    display: flex;
+    margin-top: 15px;
+}
+.life_line .one {
+    height: 10px;
+    width: 15px;
+    background-color: rgb(68, 255, 68);
+    margin-left: 5px;
+    border-radius: 3px;
+    border :1px solid;
+}
+.life_line .one2 {
+    height: 10px;
+    width: 15px;
+    background-color: rgb(68, 255, 68);
+    margin-left: 5px;
+    border-radius: 3px;
+    border :1px solid;
+}
+.life_line .one3 {
+    height: 10px;
+    width: 15px;
+    background-color: rgb(68, 255, 68);
+    margin-left: 5px;
+    border-radius: 3px;
+    border :1px solid;
+}
+.life_line .one4 {
+    height: 10px;
+    width: 15px;
+    background-color: rgb(68, 255, 68);
+    margin-left: 5px;
+    border-radius: 3px;
+    border :1px solid;
+}
+.life_line .one5 {
+    height: 10px;
+    width: 15px;
+    background-color: rgb(68, 255, 68);
+    margin-left: 5px;
+    border :1px solid;
+    border-radius: 3px;
+    /* color: rgb(193, 255, 68); */
+}
+.loser{
+    background-color: rgb(36, 36, 36);
+    animation: jhddd 2s ;
+}
+@keyframes jhddd {
+    0%{
+        height:0 ;
+    }100%{
+        height: 20px;
+    }
+}
+.for_loser{
+    font-size: 16px;
+    color: white;
+}
+
+
+
+
+/* // */
+.amiiii{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../images/dsgn_23.jpg)no-repeat center / cover;
+    transform: scale(1.5);
+    height: 100%;
+    width: 100%;
+}
+
+.for_winner{
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    animation: sjhdv 2s infinite alternate;
+    box-shadow: 0px 0px 55px 4px rgba(255,255,255,0.52);
+    -webkit-box-shadow: 0px 0px 55px 4px rgba(255,255,255,0.52);
+    -moz-box-shadow: 0px 0px 55px 4px rgba(255,255,255,0.52);
+}
+.for_winner:hover{
+    background-color: aqua;
+    color: white;
+}
+@keyframes sjhdv{
+    0%{
+        top:45%;
+    }100%{
+        top:50%;
+    }
+}
+
+
+
+.player_three_box{
+    width: 140px;
+    animation: sjkbds 2s alternate;
+
+}
+@keyframes sjkbds{
+    0%{
+        width: 10px;
+    }40%{
+        width: 100px;
+    }60%{
+        width: 150px;
+    }100%{
+        width: 140px;
+    }
+}
+
+.player_three_btn{
+    animation: ksd 2s;
+    border-radius: 2px;
+    border: none;
+    background-color: rgb(29, 198, 255);
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+}
+@keyframes ksd{
+    0%{
+        width: 0;
+    }100%{
+        width: 50px;
+    }
+}
+
+.for_loser_three{
+    color: white;
+    font-size: 20px;
+    animation: jydgj 2s ;
+}
+@keyframes jydgj{
+    0%{
+        height: 0px;
+    }
+    100%{
+        height: 20px;
+    }
+}
+
+.player_four_btn{
+    animation: hjdbfh 2s;
+    border-radius: 2px;
+    border: none;
+    background-color: rgb(29, 198, 255);
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+}
+@keyframes hjdbfh{
+    0%{
+        width: 0;
+    }100%{
+        width: 50px;
+    }
+}
+
+
+.player_four_box{
+    width: 140px;
+    animation: hkldh 2s alternate;
+
+}
+@keyframes hkldh{
+    0%{
+        width: 10px;
+    }40%{
+        width: 100px;
+    }60%{
+        width: 150px;
+    }100%{
+        width: 140px;
+    }
+}
